@@ -12,14 +12,13 @@ Collection of binds to help with waypointing maps for RCBot Metamod Sven Co-op
 <br>
 <br>
 
-
-
 Setup
 - Ensure Sven Co-op is not running
 - Browse to your \svencoop\ folder
 - Copy waypoint-mm.cfg 
 - Start Sven Co-op and display the developer console and type '**exec waypoint-mm.cfg**'
 
+![image](https://github.com/user-attachments/assets/f8fd0b69-d035-44c2-b3ce-2f5a7f4a46b9)
 
 
 Usage
