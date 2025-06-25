@@ -1,0 +1,25 @@
+name: Zip and Attach Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  zip-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract Release Tag
+        run: echo "RELEASE_TAG=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Zip repository contents
+        run: |
+          zip -r RCBot-MM-Sven-coop-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip . -x ".git/*" ".github/*"
+
+      - name: Upload ZIP to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: RCBot-MM-Sven-coop-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
