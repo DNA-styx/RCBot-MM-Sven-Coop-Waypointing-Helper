@@ -1,11 +1,11 @@
 # RCBot Metamod Waypointing Helper
 
 <div align="center">
-  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
-  <img src="https://img.shields.io/github/downloads/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper/total">
-  <img src="https://img.shields.io/github/issues/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DNA-styx/RCBot-Metamod-Waypointing-Helper">
+  <img src="https://img.shields.io/github/downloads/DNA-styx/RCBot-Metamod-Waypointing-Helper/total">
+  <img src="https://img.shields.io/github/issues/DNA-styx/RCBot-Metamod-Waypointing-Helper">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/DNA-styx/RCBot-Metamod-Waypointing-Helper">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DNA-styx/RCBot-Metamod-Waypointing-Helper">
 </div>
 <br>
 Collection of binds to help with waypointing maps for RCBot Metamod (including Sven Co-op)
