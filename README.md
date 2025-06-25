@@ -1,4 +1,4 @@
-# RCBot Metamod Sven Co-op Waypointing Helper
+# RCBot Metamod Waypointing Helper
 
 <div align="center">
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
@@ -8,15 +8,15 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DNA-styx/RCBot-MM-Sven-Coop-Waypointing-Helper">
 </div>
 <br>
-Collection of binds to help with waypointing maps for RCBot Metamod Sven Co-op
+Collection of binds to help with waypointing maps for RCBot Metamod (including Sven Co-op)
 <br>
 <br>
 
 Setup
-- Ensure Sven Co-op is not running
-- Browse to your \svencoop\ folder
+- Ensure your game is not running
+- Browse to your game folder e.g. \svencoop\
 - Copy waypoint-mm.cfg 
-- Start Sven Co-op and display the developer console and type '**exec waypoint-mm.cfg**'
+- Start your game and display the developer console and type '**exec waypoint-mm.cfg**'
 
 ![image](https://github.com/user-attachments/assets/f8fd0b69-d035-44c2-b3ce-2f5a7f4a46b9)
 
@@ -41,7 +41,5 @@ RCBot & Metamod Downloads
 Waypointing Tips
 - http://rcbot.bots-united.com/forums/index.php?showtopic=2223
 
-
 Credit
 - Based on INsane's DoD:S Waypoint Keybinds https://www.dodbits.com/dods/index.php/dods/rcbot2-for-dod-s/rcbot2-waypointing-tips
-
