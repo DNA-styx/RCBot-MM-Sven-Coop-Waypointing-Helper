@@ -16,10 +16,10 @@ jobs:
 
       - name: Zip repository contents
         run: |
-          zip -r RCBot-MM-Sven-coop-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip . -x ".git/*" ".github/*"
+          zip -r RCBot-Metamod-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip . -x ".git/*" ".github/*"
 
       - name: Upload ZIP to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: RCBot-MM-Sven-coop-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip
+          files: RCBot-Metamod-Waypointing-Helper-${{ env.RELEASE_TAG }}.zip
           token: ${{ secrets.GITHUB_TOKEN }}
